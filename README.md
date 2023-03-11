@@ -1,3 +1,5 @@
+![alt text](https://github.com/Gitzak/flutter_auth_2/blob/main/screenshoot.png)
+
 # flutter_auth_2
 
 A new Flutter project.
