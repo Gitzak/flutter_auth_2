@@ -30,7 +30,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Login Screen')),
+      appBar: AppBar(title: const Text('Login Screen Page')),
       body: Container(
         padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
         child: Column(
@@ -44,7 +44,7 @@ class _LoginScreenState extends State<LoginScreen> {
             TextField(
               controller: _passCtrl,
               keyboardType: TextInputType.visiblePassword,
-              obscureText: true,              
+              obscureText: true,
               decoration: const InputDecoration(
                 label: Text("Password"),
               ),
